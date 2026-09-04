@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #172033; }
+.container { width: min(90%, 68.75rem); margin: auto; }
+.section { padding: 4rem 0; }
+.site-header { background: #0b1f3a; color: #fff; }
+.header-layout { min-height: 5.5rem; display: flex; justify-content: space-between; align-items: center; gap: 2rem; }
+.logo { font-size: 1.25rem; }
+.nav-list { display: flex; gap: 1rem; margin: 0; padding: 0; list-style: none; }
+.nav-list a { color: #fff; text-decoration: none; }
+.hero { min-height: 32rem; display: grid; place-items: center; padding: 4rem 5%; text-align: center; color: #fff; background: #163b65; }
+.hero-content { max-width: 50rem; }
+.hero h2 { font-size: 3rem; }
+.eyebrow { color: #f4c430; font-weight: 700; text-transform: uppercase; }
+.button { display: inline-block; margin-top: 1rem; padding: 0.8rem 1.3rem; background: #f4c430; color: #101820; font-weight: 700; text-decoration: none; border-radius: 0.3rem; }
+.site-footer { padding: 2rem; background: #101820; color: #fff; text-align: center; }

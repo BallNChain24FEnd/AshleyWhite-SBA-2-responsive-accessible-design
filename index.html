@@ -4,56 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Justice League Accessible Design Co.</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-  <header>
-    <h1>Justice League Accessible Design Co.</h1>
-
-    <nav aria-label="Primary navigation">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="container header-layout">
+      <h1 class="logo">Justice League Accessible Design Co.</h1>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-
-    <section id="home">
-      <h2>Building a More Accessible Digital World</h2>
-      <p>
-        Justice League Accessible Design Co. creates responsive and accessible
-        web experiences for everyone.
-      </p>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Justice League Accessible Design Co.</p>
+        <h2>Building a More Accessible Digital World</h2>
+        <p>We combine teamwork, technology, and inclusive design to create websites that are easier for more people to use.</p>
+        <a class="button" href="#services">Explore Our Services</a>
+      </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="container section">
       <h2>About Us</h2>
-      <p>
-        Our fictional design team is inspired by the teamwork and strengths
-        of the Justice League.
-      </p>
+      <p>Justice League Accessible Design Co. is a fictional digital agency inspired by the teamwork of DC's Justice League. Our mission is to create responsive, readable, and accessible digital experiences.</p>
     </section>
 
-    <section id="services">
+    <section id="services" class="container section">
       <h2>Our Services</h2>
-      <p>Our services will be added here.</p>
+      <p>Justice League service information will be added next.</p>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="container section">
       <h2>Contact Us</h2>
-      <p>Contact form coming soon.</p>
+      <p>Our accessible contact form will be added later.</p>
     </section>
-
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <p>&copy; 2026 Justice League Accessible Design Co.</p>
   </footer>
-
 </body>
 </html>
