@@ -138,11 +138,17 @@ textarea:focus-visible {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.8rem 1.3rem;
+  border: 0.12rem solid #f4c430;
   background: #f4c430;
   color: #101820;
   font-weight: 700;
   text-decoration: none;
   border-radius: 0.3rem;
+}
+
+.button:hover {
+  background: #fff;
+  border-color: #fff;
 }
 
 .services {
@@ -211,7 +217,9 @@ textarea:focus-visible {
   min-width: 0;
   overflow: hidden;
   background: #fff;
+  border: 0.08rem solid #c9d3df;
   border-radius: 0.6rem;
+  box-shadow: 0 0.3rem 0.9rem rgba(0, 0, 0, 0.12);
 }
 
 .card img {
@@ -295,6 +303,11 @@ textarea:focus-visible {
   cursor: pointer;
 }
 
+.submit-button:hover {
+  background: #fff;
+  color: #0b1f3a;
+}
+
 .nav-list a:focus-visible,
 .button:focus-visible,
 .submit-button:focus-visible,
@@ -308,11 +321,45 @@ textarea:focus-visible {
   font-weight: 700;
 }
 
+/* Footer */
 .site-footer {
-  padding: 2rem;
+  padding-top: 3rem;
   background: #101820;
   color: #fff;
+}
+
+.footer-layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.site-footer h2 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.site-footer a {
+  color: #ffd84d;
+}
+
+.site-footer address {
+  font-style: normal;
+}
+
+.site-footer nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.copyright {
+  margin: 2rem 0 0;
+  padding: 1rem;
+  border-top: 0.05rem solid #4c5665;
   text-align: center;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 64rem) {
@@ -447,5 +494,9 @@ textarea:focus-visible {
     width: 100%;
     max-width: 100%;
     padding: 1.25rem;
+  }
+
+  .footer-layout {
+    flex-direction: column;
   }
 }
