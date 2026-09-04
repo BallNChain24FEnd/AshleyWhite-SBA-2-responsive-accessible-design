@@ -9,13 +9,15 @@
 </head>
 <body>
 
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
   <header class="site-header">
     <div class="container header-layout">
-      <h1 class="logo">Justice League Accessible Design Co.</h1>
+      <p class="logo">Justice League Accessible Design Co.</p>
 
-      <nav aria-label="Primary navigation">
+      <nav role="navigation" aria-label="Primary navigation">
         <ul class="nav-list">
-          <li><a href="#home">Home</a></li>
+          <li><a href="#home" aria-current="page">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -24,12 +26,12 @@
     </div>
   </header>
 
-  <main>
+  <main id="main-content">
 
-    <section id="home" class="hero">
+    <section id="home" class="hero" aria-labelledby="hero-title">
       <div class="hero-content">
         <p class="eyebrow">Justice League Accessible Design Co.</p>
-        <h2>Building a More Accessible Digital World</h2>
+        <h1 id="hero-title">Building a More Accessible Digital World</h1>
         <p>
           We combine teamwork, technology, and inclusive design to create
           websites that are easier for more people to use.
