@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Justice League Accessible Design Co. creates responsive and accessible web experiences.">
   <title>Justice League Accessible Design Co.</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -10,45 +11,105 @@
   <header class="site-header">
     <div class="container header-layout">
       <h1 class="logo">Justice League Accessible Design Co.</h1>
-      <nav aria-label="Primary navigation">
-        <ul class="nav-list">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <nav aria-label="Primary navigation"><ul class="nav-list"><li><a href="#home">Home</a></li><li><a href="#about">About Us</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li></ul></nav>
     </div>
   </header>
-
   <main>
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">Justice League Accessible Design Co.</p>
-        <h2>Building a More Accessible Digital World</h2>
-        <p>We combine teamwork, technology, and inclusive design to create websites that are easier for more people to use.</p>
-        <a class="button" href="#services">Explore Our Services</a>
-      </div>
-    </section>
+    <section id="home" class="hero"><div class="hero-content"><p class="eyebrow">Justice League Accessible Design Co.</p><h2>Building a More Accessible Digital World</h2><p>We combine teamwork, technology, and inclusive design to create websites that are easier for more people to use.</p><a class="button" href="#services">Explore Our Services</a></div><img class="hero-image" src="images/justice-league-team.jpg" alt="Justice League team representing the accessible design company"></section>
+    <section id="about" class="container section"><p class="eyebrow dark">Our Mission</p><h2>About Us</h2><p>Justice League Accessible Design Co. is a fictional digital agency inspired by the teamwork of DC's Justice League. Our mission is to create responsive, readable, and accessible digital experiences.</p></section>
+<section id="services" class="services section" aria-labelledby="services-title">
+      <div class="container">
+        <p class="eyebrow dark">What We Do</p>
+        <h2 id="services-title">Justice League Services</h2>
+        <p>Each hero represents a different accessibility or web design service.</p>
+        <div class="service-grid">
+           <article class="card" id="B1">
+    <img src="images/superman.jpg"
+      alt="Superman representing inclusive content services">
 
-    <section id="about" class="container section">
-      <h2>About Us</h2>
-      <p>Justice League Accessible Design Co. is a fictional digital agency inspired by the teamwork of DC's Justice League. Our mission is to create responsive, readable, and accessible digital experiences.</p>
-    </section>
+    <div class="card-body">
+      <h3>Superman: Inclusive Content</h3>
+      <p>
+        We organize pages with clear headings, readable text,
+        meaningful alt text, and understandable content.
+      </p>
+    </div>
+  </article>
 
-    <section id="services" class="container section">
-      <h2>Our Services</h2>
-      <p>Justice League service information will be added next.</p>
-    </section>
 
-    <section id="contact" class="container section">
-      <h2>Contact Us</h2>
-      <p>Our accessible contact form will be added later.</p>
+  <article class="card" id="B2">
+    <img src="images/batman.jpg"
+      alt="Batman representing accessibility audit services">
+
+    <div class="card-body">
+      <h3>Batman: Accessibility Audits</h3>
+      <p>
+        We investigate websites for missing labels, weak contrast,
+        confusing navigation, and keyboard accessibility problems.
+      </p>
+    </div>
+  </article>
+
+
+  <article class="card" id="B3">
+    <img src="images/wonder-woman.jpg"
+      alt="Wonder Woman representing responsive design services">
+
+    <div class="card-body">
+      <h3>Wonder Woman: Responsive Design</h3>
+      <p>
+        We use Flexbox, CSS Grid, and media queries to create
+        layouts that work across different screen sizes.
+      </p>
+    </div>
+  </article>
+
+
+  <article class="card" id="B4">
+    <img src="images/flash.jpg"
+      alt="The Flash representing performance and usability services">
+
+    <div class="card-body">
+      <h3>The Flash: Performance &amp; Usability</h3>
+      <p>
+        We organize websites so users can quickly find information
+        and complete important tasks.
+      </p>
+    </div>
+  </article>
+
+
+  <article class="card" id="B5">
+    <img src="images/green-lantern.jpg"
+      alt="Green Lantern representing accessible interface design">
+
+    <div class="card-body">
+      <h3>Green Lantern: Accessible Interfaces</h3>
+      <p>
+        We design clear links, buttons, menus, and forms with
+        visible keyboard focus states.
+      </p>
+    </div>
+  </article>
+
+
+  <article class="card" id="B6">
+    <img src="images/aquaman.jpg"
+      alt="Aquaman representing cross-device testing services">
+
+    <div class="card-body">
+      <h3>Aquaman: Cross-Device Testing</h3>
+      <p>
+        We test websites on mobile, tablet, and desktop screens
+        to keep content readable and usable.
+      </p>
+    </div>
+  </article>
+
+  </div>
     </section>
+    <section id="contact" class="container section"><h2>Contact Us</h2><p>Our accessible contact form will be added next.</p></section>
   </main>
-
-  <footer class="site-footer">
-    <p>&copy; 2026 Justice League Accessible Design Co.</p>
-  </footer>
+  <footer class="site-footer"><p>&copy; 2026 Justice League Accessible Design Co.</p></footer>
 </body>
 </html>
